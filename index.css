@@ -320,3 +320,57 @@ p.heading_testimonial {
   margin-top: 26px;
   font-size: 12px;
 }
+/* Media Query section */
+@media screen and (min-width: 320px) {
+  /* feature section */
+  .feature_row1 {
+    display: flex;
+    flex-direction: column;
+  
+}
+.feature_row2 {
+  display: flex;
+  flex-direction: column;
+}
+.feature_row3 {
+  display: flex;
+  flex-direction: column;
+}
+.feature_row4 {
+  display: flex;
+  flex-direction: column;
+}
+/* learn how to section */
+#howto_section {
+  background: url(images/hp-animation.jpg) center top no-repeat;
+  height: 700px;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 37px;
+}
+
+#howto_section > .container > .heading {
+  margin-top: 1em;
+  margin-bottom: 20px;
+  font-size:26px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(49, 44, 44);
+  display: block;
+  padding: 0px 26px;
+}
+/* Testimonial section */
+.testimonial_card {
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.testimonial_row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+}
+}
